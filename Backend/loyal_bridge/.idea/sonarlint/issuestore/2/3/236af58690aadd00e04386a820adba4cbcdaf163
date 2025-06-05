@@ -1,0 +1,9 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8­Ü©ˆô2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8®Ü©ˆô2
+w
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(Ó€²‹8¯Ü©ˆô2
+z
+java:S3305"]Inject this field value directly into "authenticationProvider", the only method that uses it.(Öß•‡8¯Ü©ˆô2
