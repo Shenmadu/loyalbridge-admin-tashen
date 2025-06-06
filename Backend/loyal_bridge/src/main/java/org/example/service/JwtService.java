@@ -10,8 +10,13 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    private final String secretKey = "";
+    private final String secretKey;
     private final long expiration = 3600000; // 1 hour
+
+    public JwtService() {
+        // Fetch the secret key from system properties
+        this.secretKey = System.getProperty("SECRET_KEY");
+    }
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);

@@ -11,6 +11,7 @@ public class Main {
         // Set env vars for Spring to read
         System.setProperty("DB_USERNAME", dotenv.get("DB_USERNAME"));
         System.setProperty("DB_PASSWORD", dotenv.get("DB_PASSWORD"));
+        System.setProperty("SECRET_KEY", dotenv.get("SECRET_KEY"));
         SpringApplication.run(Main.class);
 
     }

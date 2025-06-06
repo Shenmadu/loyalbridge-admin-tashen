@@ -1,11 +1,9 @@
 
->
-java:S1170"!Make this final field static too.(ÕÊ•8•‡–Šô2
 C
-java:S1170"!Make this final field static too.(ºš—†ûÿÿÿÿ8–‡–Šô2
+java:S1170"!Make this final field static too.(ºš—†ûÿÿÿÿ8™ĞÀ´ô2
 P
-java:S1874".Remove this use of "parser"; it is deprecated.(¯éºæıÿÿÿÿ8Ÿ‡–Šô2
+java:S1874".Remove this use of "parser"; it is deprecated.(¯éºæıÿÿÿÿ8äĞÀ´ô2
 W
-java:S1874"5Remove this use of "setSigningKey"; it is deprecated.(¯éºæıÿÿÿÿ8Ÿ‡–Šô2
+java:S1874"5Remove this use of "setSigningKey"; it is deprecated.(¯éºæıÿÿÿÿ8äĞÀ´ô2
 R
-java:S1874""0Remove this use of "signWith"; it is deprecated.(´²­úÿÿÿÿ8¤‡–Šô2
+java:S1874'"0Remove this use of "signWith"; it is deprecated.(´²­úÿÿÿÿ8éĞÀ´ô2
