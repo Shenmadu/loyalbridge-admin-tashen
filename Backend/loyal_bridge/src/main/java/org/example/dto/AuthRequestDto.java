@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.example.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,8 +8,7 @@ import lombok.ToString;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
-public class AuthRequest {
+public class AuthRequestDto {
     private String username;
     private String password;
 }
