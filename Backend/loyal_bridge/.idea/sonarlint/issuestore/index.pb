@@ -54,3 +54,9 @@ h
 8src/main/java/org/example/controller/UserController.java,b\7\b713bf81ec595e3f695a79200fb78c8915c34789
 ^
 .src/main/java/org/example/dto/UserFlagDto.java,5\2\524264325d9f1338714395a0eb1ebe423ff92b89
+k
+;src/main/java/org/example/controller/PartnerController.java,9\4\94c99d38f34082ab2ab51c219f105580a95d5a3b
+e
+5src/main/java/org/example/service/PartnerService.java,f\6\f6afa903a5c7a5c9b769b9372e8cc9c5633c061d
+n
+>src/main/java/org/example/service/impl/PartnerServiceImpl.java,c\0\c050ec796cb579f85ca676e524635280e24fe9a9

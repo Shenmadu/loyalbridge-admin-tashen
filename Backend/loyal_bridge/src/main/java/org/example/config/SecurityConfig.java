@@ -37,6 +37,7 @@ public class SecurityConfig {
                         .requestMatchers("/auth/login", "/auth/register").permitAll() // Public endpoints
                         .requestMatchers("/admin/**").hasAuthority("ROLE_ADMIN") // Admin-only endpoints
                         .requestMatchers("/user/**").hasAnyAuthority("ROLE_USER", "ROLE_SuperAdmin")
+                        .requestMatchers("/partners/**").hasAnyAuthority("ROLE_PartnerAdmin", "ROLE_SuperAdmin")
                         .anyRequest().authenticated() // Secure all other endpoints
                 )
                 .sessionManagement(sess -> sess
