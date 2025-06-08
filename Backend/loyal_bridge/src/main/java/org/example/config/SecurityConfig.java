@@ -36,7 +36,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/auth/login", "/auth/register").permitAll() // Public endpoints
                         .requestMatchers("/admin/**").hasAuthority("ROLE_ADMIN") // Admin-only endpoints
-                        .requestMatchers("/user/**").hasAuthority("ROLE_USER") // User-only endpoints
+                        .requestMatchers("/user/**").hasAnyAuthority("ROLE_USER", "ROLE_SuperAdmin")
                         .anyRequest().authenticated() // Secure all other endpoints
                 )
                 .sessionManagement(sess -> sess

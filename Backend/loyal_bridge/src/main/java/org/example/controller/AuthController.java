@@ -24,7 +24,17 @@ public class AuthController {
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
 
-        return jwtService.generateToken(authRequest.getUsername());
+        // Retrieve the authenticated user's details
+        org.springframework.security.core.userdetails.User userDetails =
+                (org.springframework.security.core.userdetails.User) authentication.getPrincipal();
+
+        // Retrieve the user's role
+        String role = userDetails.getAuthorities().stream()
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("Role not found"))
+                .getAuthority();
+
+        return jwtService.generateToken(authRequest.getUsername(), role);
     }
 
     @PostMapping("/register")
