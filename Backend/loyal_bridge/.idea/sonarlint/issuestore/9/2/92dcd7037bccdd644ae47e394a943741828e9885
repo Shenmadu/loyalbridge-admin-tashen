@@ -1,5 +1,6 @@
 
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‹ôûİô2
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Œôûİô2
+n
+java:S1192@"QDefine a constant instead of duplicating this literal "application/json" 3 times.(ªŞÃı8 —’èõ2
+u
+java:S1128
+"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8·˜’èõ2

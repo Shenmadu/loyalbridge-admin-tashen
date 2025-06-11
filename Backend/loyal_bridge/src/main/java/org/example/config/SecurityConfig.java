@@ -1,5 +1,6 @@
 package org.example.config;
 
+import lombok.RequiredArgsConstructor;
 import org.example.filter.JwtAuthFilter;
 import org.example.service.impl.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,14 +22,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
+@RequiredArgsConstructor
 public class SecurityConfig {
-
-    @Autowired
-    private JwtAuthFilter jwtAuthFilter;
-
-    @Autowired
-    private UserInfoService userInfoService;
-
+    private final JwtAuthFilter jwtAuthFilter;
+    private final UserInfoService userInfoService;
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http

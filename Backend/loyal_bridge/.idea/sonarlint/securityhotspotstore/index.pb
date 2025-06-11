@@ -60,3 +60,7 @@ e
 5src/main/java/org/example/service/PartnerService.java,f\6\f6afa903a5c7a5c9b769b9372e8cc9c5633c061d
 n
 >src/main/java/org/example/service/impl/PartnerServiceImpl.java,c\0\c050ec796cb579f85ca676e524635280e24fe9a9
+q
+Asrc/main/java/org/example/controller/ConversionLogController.java,c\b\cb31e63e03086001888cde12382ea8dc6bdbe795
+t
+Dsrc/main/java/org/example/service/impl/ConversionLogServiceImpl.java,5\a\5a85e5f772f44c5f930203349341a101f65ea18a
